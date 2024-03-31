@@ -14,7 +14,7 @@ This section explores **aplay** and **mpg321**, two command line tools for manag
 *See [here.](./command_line_audio.md)*
 
 ## Run a Program On Your Raspberry Pi At Startup
-To run a program on your Raspberry Pi at startup, use the rc.local file. Simply add commands to this file, and they will execute when the Pi boots. This is handy for headless setups, allowing automatic program execution without manual intervention or configuration.
+This section outlines how to configure your Raspberry Pi to automatically run a program upon startup using the rc.local file. Automating program execution on boot can be particularly useful for headless setups, enabling seamless operation without manual intervention or configuration.
 
 *See [here.](./startup_command.md)*
 
