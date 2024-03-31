@@ -4,7 +4,7 @@ Configuration cheat sheet for my Raspberry Pi (current version 4).
 # Table of Contents
 - [Remote access via SSH](#remote-access-via-ssh)
 - [Command Line Audio](#command-line-audio)
-- [Download Youtube Video & mp3 Extraction](#download-youtube-video-%26-mp3-extraction)
+- [Download Youtube Video & mp3 Extraction](#download-youtube-video-and-mp3-extraction)
 - [Run a Program On Your Raspberry Pi At Startup](#run-a-program-on-your-raspberry-pi-at-startup)
 
 ## Remote Access via SSH
@@ -15,7 +15,7 @@ This section explores **aplay** and **mpg321**, two command line tools for manag
 
 *See [here.](./command_line_audio.md)*
 
-## Download Youtube Video & mp3 Extraction
+## Download Youtube Video and mp3 Extraction
 This section covers methods for downloading YouTube videos and extracting MP3 audio files for use on your Raspberry Pi.
 
 *See [here.](./youtube_downloader.md)* 
