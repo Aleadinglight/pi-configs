@@ -2,7 +2,7 @@
 ## Overview
 The `rc.local` file serves as a convenient way to execute commands or launch programs during the boot process. By adding commands to this file, you can ensure that specific tasks are initiated as soon as the Raspberry Pi powers up.
 
-### Editing rc.local
+## Editing `rc.local`
 To configure your Raspberry Pi to execute specific commands upon startup, follow these steps:
 
 Open the file `/etc/rc.local` with root permissions using the following command:
