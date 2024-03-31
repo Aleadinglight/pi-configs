@@ -8,22 +8,27 @@ Configuration cheat sheet for my Raspberry Pi (current version 4).
 
 ## Run a Program On Your Raspberry Pi At Startup
 ### Editing rc.local
-On your Pi, edit the file `/etc/rc.local` with root permissions:
+To configure your Raspberry Pi to execute specific commands upon startup, follow these steps:
+
+Open the file /etc/rc.local with root permissions using the following command:
+
 ```shell
 sudo nano /etc/rc.local
 ```
-For example, play a song when Pi wake up
+Insert the desired commands into the file. For example, to play a song upon Pi startup, you can use the aplay command followed by the absolute file path of the song:
 ```bash
-sudo aplay <songfile>.mp3
+sudo aplay /path/to/songfile.mp3
 ```
-sudo reboot
+After inserting your commands, save the file and exit the text editor.
 
-Note:
-- Use absolute file names (`/home/pi/myscript.py`) rather than relative (`myscript.py`).
+**Note:** 
+- It's important to use **absolute file paths** (`/path/to/songfile.mp3`) rather than **relative paths** to ensure proper execution.
+- Ensure that any scripts or commands added to `/etc/rc.local` **do not cause the boot sequence to hang**. Testing the commands thoroughly before adding them to the startup sequence is recommended.
+- You can redirect the output and errors of your script to a text file for debugging purposes. For example:
+  ```bash
+  sudo python /home/pi/sample.py & > /home/pi/Desktop/log.txt 2>&1
+  ```
+- Remember to leave the line exit 0 intact at the end of the /etc/rc.local file.
 
-- Scripts in `/etc/rc.local` are added to the boot sequence. If your code gets stuck then the boot sequence cannot proceed. So be careful as to which code you are trying to run at boot and test the code a couple of times. You can also get the script’s output and error written to a text file (ex: `log.txt`) and use it to debug.
-```bash
-sudo python /home/pi/sample.py & > /home/pi/Desktop/log.txt 2>&1
-```
-- Be sure to leave the line exit 0 at the end.
+By following these steps, your Raspberry Pi will execute the specified commands upon startup as part of its boot sequence.
 
