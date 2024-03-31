@@ -1,19 +1,27 @@
-## Command Line Audio
+# Command Line Audio
 
-### Overview
+## Overview
 [aplay](https://linux.die.net/man/1/aplay): This is used for `.wav` files.
 
 [mpg321](https://linux.die.net/man/1/mpg321): This is used for `.mp3` files.
   
-### Usage
 ## aplay 
-Use the following command syntax to play an audio file with aplay:
+### Installation
+This comes as default in Pi4.
 
-```bash
+### Usage
+Use the following command syntax to play an audio file with aplay:
+```shell
 aplay <file>
 ```
 
 ## mpg321 
+### Installation 
+```shell
+sudo apt-get -y install mpg321
+```
+
+### Usage
 Use the following command syntax to play an `mp3` file:
 
 ```shell
