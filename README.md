@@ -13,6 +13,11 @@ This section explores **aplay** and **mpg321**, two command line tools for manag
 
 *See [here.](./command_line_audio.md)*
 
+## Download Youtube Video
+This section covers methods for downloading YouTube videos and extracting MP3 audio files for use on your Raspberry Pi.
+
+See [here.](./youtube_downloader.md)* 
+
 ## Run a Program On Your Raspberry Pi At Startup
 This section outlines how to configure your Raspberry Pi to automatically run a program upon startup using the rc.local file. Automating program execution on boot can be particularly useful for headless setups, enabling seamless operation without manual intervention or configuration.
 
