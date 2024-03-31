@@ -2,9 +2,9 @@
 Configuration cheat sheet for my Raspberry Pi (current version 4).
 
 # Table of Contents
-- [Remote access via SSH](remote-access-via-ssh)
-- [Command Line Audio](command-line-audio)
-- [Download Youtube Video & mp3 Extraction](download-youtube-video-&-mp3-extraction)
+- [Remote access via SSH](#remote-access-via-ssh)
+- [Command Line Audio](#command-line-audio)
+- [Download Youtube Video & mp3 Extraction](#download-youtube-video-&-mp3-extraction)
 - [Run a Program On Your Raspberry Pi At Startup](#run-a-program-on-your-raspberry-pi-at-startup)
 
 ## Remote Access via SSH
