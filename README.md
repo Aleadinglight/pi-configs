@@ -10,7 +10,7 @@ Configuration cheat sheet for my Raspberry Pi (current version 4).
 ## Remote Access via SSH
 This section outlines the configuration steps for enabling remote access to your Raspberry Pi via SSH.
 
-*See [here.](./remote-access.md)*
+*See [here.](./remote_access.md)*
 
 ## Command Line Audio
 This section explores **aplay** and **mpg321**, two command line tools for managing audio on your Raspberry Pi.
