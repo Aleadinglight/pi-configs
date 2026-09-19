@@ -27,3 +27,5 @@ This section outlines how to configure your Raspberry Pi to automatically run a 
 
 *See [here.](./startup_command.md)*
 
+## Oled screen configuration
+Waveshare Oled screen. Used this command `sudo systemctl restart info_oled` to restart it. Everything is in ./oled folder. OLED screen: a Python script (`startUp.py` in the Waveshare `RaspberryPi/python/example/` folder) shows system info on the screen. It runs as a `systemd` service that starts at boot. Requires SPI and I2C enabled. Search: "run python script at boot with systemd raspberry pi".
